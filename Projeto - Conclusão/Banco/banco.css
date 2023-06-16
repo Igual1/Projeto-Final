@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Portfolio', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(banco.png);
+   background-color: rgba(0, 0, 0, 0.5);
+   background-blend-mode: multiply;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.span-com-linha {
+    border-bottom: 4px solid #14fff1;
+    border-radius: 1px;
+  }
+
+span{
+    color:#14fff1;
+}
+
+nav{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:#14fff1;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #000504;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    color: #14fff1;
+    border: 4px solid #14fff1;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 29px #14fff1 ;
+    box-shadow: inset 0 0 20px #14fff1, 0 0 20px #14fff1 ;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.apresentar{
+    color: white;
+    position:absolute;
+    height: 10vh;
+    width: 70vw;
+    margin-left: 10px;
+}
+
+.apresentar h2{
+    color:#140b90;
+    margin-left: 15px;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 15px;
+}
+
+#P1{
+    transition: 1s;
+}
+
+#P1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#P2{
+    transition: 1s;
+}
+
+#P2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#P3{
+    transition: 1s;
+}
+
+#P3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#P4{
+    transition: 1s;
+}
+
+#P4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#P5{
+    transition: 1s;
+}
+
+#P5:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.container{
+    color: aliceblue;
+    font-family: playfair display;
+}
+
+
+/*---------------------------------*/
+
+.card {
+    width: 290px;
+    height: 354px;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .card p{
+    margin-top: 10px;
+  }
+
+  .card img{
+    margin-top: 20px;
+  }
+
+  
+.conseito p{
+  margin-top: 0px;
+}
+
+.fisicou h4{
+  margin-top: 10px;
+}
+
+  .card-inner {
+    width: inherit;
+    height: inherit;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    transform: scale(1.04) rotate(1deg);
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#25a8a8, #128079);
+    border-radius: 50%;
+    position: absolute;
+    animation: move-up6 2s ease-in infinite alternate-reverse;
+  }
+  
+  .circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+  }
+  
+  .circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down1;
+  }
+  
+  @keyframes move-up6 {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes move-down1 {
+    to {
+      transform: translateY(10px);
+    }
+  }
+  
+
+  .container2{
+    text-align: justify;
+    display: flex;
+    gap: 30px;
+  }
+
+  .bancs{
+    justify-content: center;
+    text-align: center;
+    font-family: playfair display;
+    color: #1b95a0;
+  }
+
+  .conjuntis{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .conjuntis1{
+    background-color: #000504;
+    box-shadow: 0 0 10px #147a83, 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 45vw;
+    border-radius: 8px;
+  }
+
+  .conjuntis1 p{
+    margin-right: 12px;
+  }
+
+  .conjuntis2 p{
+    margin-right: 12px;
+  }
+
+  .conjuntis2{
+    background-color: #000504;
+    box-shadow: 0 0 10px #147a83, 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 45vw;
+    border-radius: 8px;
+  }
+
+  .vamo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: playfair display;
+  }
+
+  .primeiro{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: playfair display;
+  }
+
+  .segundo{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: playfair display;
+  }
+
+  .terceiro{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: playfair display;
+  }
+
+  .quarto{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: playfair display;
+  }
+
+  
+
+  .modelos{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-family: playfair display;
+  }
+
+  .container2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .juntar{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .quinto{
+    width: 40vw;
+    margin-top: 42px;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+
+  /*--------------------------------------*/
+
+
+  .first{
+    border-radius: 6px;
+    background-color: rgba(9, 228, 244, 0.074);
+    border: 1px solid rgba(11, 107, 122, 0.222);
+}
+
+.secund{
+    border-radius: 6px;
+    background-color: rgba(9, 228, 244, 0.074);
+    border: 1px solid rgba(11, 107, 122, 0.222);
+    margin-top: 5px;
+}
+
+.tres{
+    border-radius: 6px;
+    background-color: rgba(9, 228, 244, 0.074);
+    border: 1px solid rgba(11, 107, 122, 0.222);
+    margin-top: 5px;
+}
+
+.quatro{
+    border-radius: 6px;
+    background-color: rgba(9, 228, 244, 0.074);
+    border: 1px solid rgba(11, 107, 122, 0.222);
+    margin-top: 5px;
+}
+
+.first:hover {
+    box-shadow: 0px 0px 20px 1px #0965713f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+
+  .secund:hover {
+    box-shadow: 0px 0px 20px 1px #0965713f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+
+  .tres:hover {
+    box-shadow: 0px 0px 20px 1px #0965713f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+
+  .quatro:hover {
+    box-shadow: 0px 0px 20px 1px #0965713f;
+    border: 1px solid rgba(255, 255, 255, 0.454);
+  }
+
+  .conjuntao{
+    width: 30vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .juntandoo{
+    color: aliceblue;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .projetin1{
+    width: 30vw;
+    text-align: justify;
+    margin-top: 60px;
+  }
+
+.projetinho p{
+  color: aliceblue;
+}
+
+.projetos p{
+  justify-content: center;
+  text-align: center;
+  color: #14fff1;
+}
+
+.titulo p{
+  justify-content: center;
+  text-align: center;
+  color: #199ca8;
+}
+
+.titulo2 p{
+  justify-content: center;
+  text-align: center;
+  color: #199ca8;
+}
+
+.conteuds p{
+
+}
+
+.projetin1 p{
+  justify-content: center;
+}
+
